@@ -1,3 +1,83 @@
 body {
-  background: #444;
-  color: #fff; }
+  margin: 0;
+  background: #eee;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  background-image: url(../assets/background.jpg);
+  background-repeat: repeat-y; }
+
+header {
+  position: fixed;
+  width: 100%;
+  margin-top: -100px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12); }
+  header ul {
+    list-style-type: none; }
+
+main {
+  margin-top: 100px; }
+
+a {
+  color: #1556d8;
+  text-decoration: none; }
+  a:hover, a:active, a:focus {
+    color: #0e3177;
+    text-decoration: underline; }
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.section-home {
+  text-align: center; }
+
+.section-about {
+  background-color: #fff;
+  padding: 50px 50px; }
+
+.section-portfolio {
+  background-color: #eee;
+  padding: 50px 50px; }
+
+.section-contact {
+  background-color: #fff;
+  padding: 50px 50px; }
+  .section-contact span {
+    color: #06820e; }
+  .section-contact .social-icons {
+    display: flex;
+    justify-content: center; }
+    .section-contact .social-icons a {
+      margin: 8px; }
+
+.profile-img {
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px; }
+
+.profile-title {
+  margin: 40px 0; }
+
+h1.lg-heading,
+h2.lg-heading,
+h3.lg-heading {
+  font-size: 4rem; }
+
+h1.md-heading,
+h2.md-heading,
+h3.md-heading {
+  color: #1556d8; }
+
+h1.sm-heading,
+h2.sm-heading,
+h3.sm-heading {
+  color: #06820e; }
+
+.project-item img {
+  max-width: 300px; }

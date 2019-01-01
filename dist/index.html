@@ -5,9 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Taylor Shin's Portfolio</title>
 </head>
 <body>
-    Worth being loved
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="section section-home">
+            <h1 class="lg-heading">Taylor Shin</h1>
+            <img class="profile-img" src="assets/profile.jpg" alt="Profile Picture">
+            <p class="profile-title">Software Engineer | AI Researcher</p>
+        </div>
+        <div id="about" class="section section-about">
+            <h1 class="md-heading">About Me</h1>
+            <p>I am a software engineer, AI researcher, and aspiring tech entrepreneur.</p>
+            <p>
+                During my senior year at the University of California San Diego, I was part of
+                a research group that published a research paper <a href="https://deepj.ai/" target="_blank" rel="nofollow">DeepJ</a> 
+                that involved a deep neural network that composes polyphonic music.
+            </p>
+            <p>
+                In 2017, I joined the Web & Mobile team at Blizzard Entertainment and helped launch
+                and maintain the <a href="https://overwatchleague.com/en-us/" target="_blank" rel="nofollow">Overwatch League</a> website.
+            </p>
+            <p>
+                Currently, I am a graduate student at the University of California Irvine pursuing a M.S.
+                in Computer Science with a specialization in AI and Machine Learning.
+            </p>
+        </div>
+        <div id="portfolio" class="section section-portfolio">
+            <h1 class="md-heading">Portfolio</h1>
+            <h2 class="sm-heading">Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <img src="assets/deepj-logo.png" alt="DeepJ Logo">
+                    <p>
+                        <a href="https://deepj.ai/" target="_blank" rel="nofollow">DeepJ</a> is a deep neural network that generates original,
+                        classical music. It is trained on many different classical composers ranging from Bach
+                        to Tchaikovsky. The web application uses TensorFlow.js to generate samples of music based on
+                        pieces from the Baroque, Classical, Romantic, and Modern periods.
+                    </p>
+                </div>
+            </div>
+            <h2 class="sm-heading">Publications</h2>
+            <p>
+                Huanru Henry Mao, Taylor Shin, and Garrison W. Cottrell (2018)
+                <a href="https://cseweb.ucsd.edu/~gary/pubs/henry-deepj.pdf" target="_blank" rel="nofollow">DeepJ: Style-Specific Music Generation</a>.
+                In the <i>12th IEEE International Conference on Semantic Computing.</i>
+            </p>
+        </div>
+        <div id="contact" class="section section-contact">
+            <h1 class="md-heading">Contact</h1>
+            <p>Lets get in touch. The best way to reach out is to email me at <span>taylorshin12@gmail.com</span></p>
+            <div class="social-icons">
+                <a href="https://github.com/taylorshin"><i class="fab fa-github fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/taylorshin12/"><i class="fab fa-linkedin fa-lg"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

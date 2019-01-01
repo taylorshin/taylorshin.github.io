@@ -16,8 +16,11 @@
   "bugs": {
     "url": "https://github.com/taylorshin/taylorshin.github.io/issues"
   },
-  "homepage": "https://github.com/taylorshin/taylorshin.github.io#readme",
+  "homepage": "https://taylorshin.github.io/Portfolio/",
   "dependencies": {
     "node-sass": "^4.11.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }

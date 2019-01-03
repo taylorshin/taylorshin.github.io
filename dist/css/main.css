@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background: #eee;
   color: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   background-image: url(../assets/background.jpg);
   background-repeat: repeat-y; }
 

@@ -1,6 +1,6 @@
 {
   "name": "taylorshin.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Taylor Shin's Portfolio",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/taylorshin/taylorshin.github.io/issues"
   },
-  "homepage": "https://taylorshin.github.io/Portfolio/",
+  "homepage": "https://taylorshin.github.io/",
   "dependencies": {
     "node-sass": "^4.11.0"
   },
